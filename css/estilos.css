@@ -1,16 +1,24 @@
-  
+  html body{
+    background-color: #FFFFFF;
+  }
+  .barra{
+    background-color: #92A5FD;
+    height: 40px;
+  }
   .cabecero{
     display: block;
     position: absolute;
     width: 1920px;
-    top: 30px;
-    background-color: blue;
-    height: 80px;
+    top: 35px;
+    background-color: #1E1E52;
+    height: 70px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
   }
   a.icono-inicio{
     position: relative;
     top: 50px;
-    left: 80px;
+    left: 50px;
   }
  .barra-nav{
     display: inline;
@@ -19,21 +27,23 @@
     right: 800px;
 }
   header{
-    font-family: Helvetica;
     width: 480px;
     margin: 0 auto;
+    height: 50px;
   }
   ul{
     list-style: none;
   }
   #menu li>a{
-    background-color: blue;
+    background-color: #1E1E52;
     color: white;
-    padding: 10px;
+    padding: 15px;
     font-size: 20px;
+    text-align: center;
     display: block;
     text-decoration: none;
     min-width: 100px;
+
   }
   #menu li>a:hover{
     color: #000;
@@ -41,7 +51,10 @@
   }
   #menu>li{
     float: left;
-    text-align:center
+    text-align:center;
+    position: relative;
+    bottom: 20px;
+    
   }
   #menu>li>ul{
     display: none;
@@ -49,3 +62,131 @@
   #menu>li:hover>ul {
     display:block;
   }
+.carrusel-index{
+  position: relative;
+  top: 50px;
+  border: none;
+  padding: 25px;
+  }
+.servicios-index-u{
+  position: relative;
+  top: 105px;
+  margin: 30px;
+}
+#servicios-index{
+  text-align: center;
+}
+.servicio-index-i{
+  position: absolute;
+  left: 150px;
+}
+.servicio-index-m{
+  position: relative;
+
+  left: 800px;
+}
+.contacto{
+  position: relative;
+  top: 200px;
+  border: none;
+  border-top: 7px rgb(241, 64, 61) solid;
+  height: 400px;
+}
+#contacto{
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #587FFC;
+}
+.formulario-contacto{
+  position: relative;
+  top: 50px;
+  left: 150px;
+}
+.input-text{
+  border: none;
+  border-bottom: 1px #1E1E52 solid;
+  background-color: #FFF;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#mensaje-contacto{
+  position: absolute;
+  left: 300px;
+  top: 0px;
+  background-color: #FFF;
+  border: none;
+  border-top: 1px #1E1E52 solid;
+  border-bottom: 1px #1E1E52 solid;
+}
+#boton-contacto{
+  position: absolute;
+  border: none;
+  background-color: rgb(241, 64, 61);
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #FFF;
+  left: 650px;
+  width: 150px;
+  height: 30px;
+}
+footer{
+  position: relative;
+  top: 250px;
+  background-color: rgb(241, 64, 61);
+  height: 100px;
+}
+footer .datos-footer{
+  position: relative;
+  top: 45px;
+  left: 150px;
+}
+.aviso-legal{
+  position: relative;
+  top: 25px;
+  left: 550px;
+}
+.politica{
+  position: relative;
+  left: 800px;
+}
+.texto-footer{
+  color: #FFF;
+}
+.titulo-servicios{
+  position: relative;
+  top: 75px;
+  text-align: center;
+  color: #587FFC;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+.inspeccion-sub{
+  position: relative;
+  top: 50px;
+  padding: 0px 20px;
+  display: none;
+  background-color: yellowgreen;
+  overflow: hidden;
+}
+.acordeon{
+  position: relative;
+  top: 50px;
+  background-color: #fed130;
+  color: black;
+  cursor: pointer;
+  padding: 20px;
+  margin: 30px 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+}
+.active, .acordeon:hover{
+  background-color: orange;
+}
+.acerca_de{
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
